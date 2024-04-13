@@ -1,1 +1,4 @@
 /target
+**/bindings.rs
+**/.vscode
+Cargo.lock

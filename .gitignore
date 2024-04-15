@@ -2,3 +2,4 @@
 **/bindings.rs
 **/.vscode
 Cargo.lock
+**/.DS_Store

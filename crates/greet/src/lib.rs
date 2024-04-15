@@ -1,7 +1,7 @@
 #[allow(warnings)]
 mod bindings;
 
-use bindings::Guest;
+use bindings::exports::chikoski::hello_world::greet::Guest;
 
 struct Component;
 

@@ -1,0 +1,9 @@
+package chikoski:name;
+
+interface name-provider {
+    name: func() -> string;
+}
+
+world default{
+    export name-provider;
+}

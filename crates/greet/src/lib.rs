@@ -1,14 +1,16 @@
 #[allow(warnings)]
 mod bindings;
 
-use bindings::exports::chikoski::hello_world::greet::Guest;
+use bindings::chikoski::name::name_provider::name;
+use bindings::exports::chikoski::hello::greet::Guest;
 
 struct Component;
 
 impl Guest for Component {
     /// Say hello!
-    fn hello_world() -> String {
-        "Hello, World!".to_string()
+    fn hello() -> String {
+        let n = name();
+        Self::greet(n)
     }
 
     fn greet(name: String) -> String {

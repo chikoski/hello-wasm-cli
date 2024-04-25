@@ -1,4 +1,4 @@
-workspace = { members = ["crates/greet"] }
+workspace = { members = ["crates/greet", "crates/name-impl"] }
 [package]
 name = "hello-wasi-cli"
 version = "0.1.0"
@@ -15,3 +15,4 @@ package = "chikoski:hello-wasi-cli"
 
 [package.metadata.component.dependencies]
 "chikoski:hello-world" = "0.1.1"
+

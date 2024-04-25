@@ -1,12 +1,14 @@
-package chikoski:hello-world;
+package chikoski:hello;   
 
 interface greet {
-    hello-world: func() -> string;
+    hello: func() -> string;
     greet: func(name: string) -> string;
 }
 
+use chikoski:name/name-provider;
+
 /// An example world for the component to target.
 world example {
+    import name-provider;
     export greet;
 }
-    

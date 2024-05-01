@@ -1,0 +1,5 @@
+package chikoski:hello-world-cli;
+
+world hello-world-cli {
+    import chikoski:hello/greet;
+}

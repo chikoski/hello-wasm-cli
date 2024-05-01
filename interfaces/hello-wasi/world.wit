@@ -1,0 +1,5 @@
+package chikoski:hello-wasi;
+
+world default {
+    import chikoski:name/name-provider;
+}

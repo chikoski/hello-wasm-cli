@@ -1,0 +1,4 @@
+version = "0.1.0"
+
+[dependencies]
+"chikoski:name" = "0.2.1"

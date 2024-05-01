@@ -12,7 +12,8 @@ wit-bindgen-rt = "0.24.0"
 
 [package.metadata.component]
 package = "chikoski:hello-wasi-cli"
+target = "chikoski:hello-wasi@0.1.0"
+
 
 [package.metadata.component.dependencies]
-"chikoski:hello-world" = "0.1.1"
 
